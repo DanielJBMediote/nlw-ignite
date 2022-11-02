@@ -1,0 +1,20 @@
+{
+  "name": "nlw-api",
+  "version": "1.0.0",
+  "description": "Projeto Rockeatseat - NWL Copa",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.1.1",
+    "@prisma/client": "^4.5.0",
+    "fastify": "^4.9.2"
+  },
+  "devDependencies": {
+    "prisma": "^4.5.0",
+    "tsx": "^3.11.0"
+  }
+}
